@@ -1,0 +1,74 @@
+
+.flex-container {
+    margin: 1% 6%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    border-radius: 5px;
+    align-content: stretch;
+    height: auto;
+}
+
+.flex1 {
+    margin: 1%;
+    flex: 1;
+}
+
+.flex2 {
+    margin-right: 3%;
+
+    flex: 1.5;
+}
+
+.flex3 {
+    flex: 0.5;
+}
+
+.responsive {
+
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    margin-top: 5%;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 70%;
+    font-size: 18px;
+
+}
+
+button:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+}
+
+@media (max-width: 900px) {
+    .flex-container {
+        display: flex;
+        flex-flow: column;
+        height: auto;
+
+    }
+
+    .flex2 {
+
+    }
+
+    button {
+        width: 100%;
+        display: block;
+        height: auto;
+        margin:0.4em auto;
+    }
+
+}

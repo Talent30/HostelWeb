@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/hero.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/map.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/activites.css">
+    <!-- css for the arrows on the nav -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="../js/hostel.js"></script>
+	<!-- To include another html by w3school -->
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+	<title>Nelson Hostel - Activities</title>
+</head>
+<body>
+<!-- start: navigation bar -->
+	<nav class="navbar">
+				<span class="navbar-toggle" id="js-navbar-toggle">
+					<em class="fa fa-bars"></em>
+				</span>
+		<a href="./index.html" class="logo"><img src="../image/nelsonlogo.png" alt="logo" width="100%" height="100%"></a>
+		<ul class="main-nav" id="js-menu">
+			<li><a href="../index.html" class="nav-links">Home</a></li>
+			<div class="dropdown">
+				<button class="dropbtn">About Us</button>
+				<div class="dropdown-content">
+					<a href="html/ourStory.html">Our story</a>
+					<a href="html/testimonials.html">Testimonials</a>
+					<a href="#">Our Policy</a>
+				</div>
+			</div>
+			<li><a href="accommodation.html" class="nav-links">Accommdation</a></li>
+			<li><a href="service.html" class="nav-links">Services</a></li>
+			<li><a href="activities.html" class="nav-links">Activities</a></li>
+			<li><a href="events.html" class="nav-links">Events</a></li>
+			<li><a href="enquiry.html" class="nav-links">Enquiry</a></li>
+			<li><a href="https://www.thebookingbutton.com.au/properties/autolodgedirect?check_in_date=11-10-2018&check_out_date=12-10-2018&number_adults=2" class="nav-links">Book Online</a></li>
+		</ul>
+	</nav>
+	<!-- end: navigation bar -->
+
+<div class="hero-image" style="background-image: url(../image/hostel_landscape_2.jpg);">
+    <div class="hero-text">
+        <h1>Activities</h1>
+    </div>
+</div>
+<div class="flex-container">
+    <div class="flex1">
+        <img style="max-width:100%;height:auto;" src="../image/bikes-coast-cycling-160949.jpg">
+    </div>
+    <div class="flex2">Executive Queen Studio is fully renovated and refurbished with a modern design. This
+        open plan studio provides one of Hamilton's best motel accommodation for any single, couple or corporate
+        traveller. This room type is our best-selling suite.- a Super King bed
+    </div>
+
+</div>
+
+<div id="" class="flex-container-reverse">
+    <div class="flex2">Executive Queen Studio is fully renovated and refurbished with a modern design. This
+        open plan studio provides one of Hamilton's best motel accommodation for any single, couple or corporate
+        traveller. This room type is our best-selling suite.- a Super King bed
+    </div>
+    <div class="flex1">
+        <img style="max-width:100%;height:auto;" src="../image/bikes-coast-cycling-160949.jpg">
+    </div>
+
+</div>
+<div class="flex-container">
+    <div class="flex1">
+        <img style="max-width:100%;height:auto;" src="../image/bikes-coast-cycling-160949.jpg">
+    </div>
+    <div class="flex2"><p>Executive Queen Studio is fully renovated and refurbished with a modern design. This
+        open plan studio provides one of Hamilton's best motel accommodation for any single, couple or corporate
+        traveller. This room type is our best-selling suite.- a Super King bed</p>
+    </div>
+
+	</div>
+		<div w3-include-html="footer.html"></div>
+		<script>
+			popupmenu();
+			w3.includeHTML();
+		</script>
+	</body>
+</html>

@@ -1,0 +1,47 @@
+.flex-container {
+    margin: 1% 6%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    border-radius: 5px;
+    align-content: stretch;
+    height: auto;
+
+}
+
+.flex-container-reverse {
+    margin: 1% 6%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    border-radius: 5px;
+    align-content: stretch;
+    height: auto;
+}
+
+.flex1 {
+    flex: 2;
+    margin: 1%;
+}
+
+.flex2 {
+    flex: 1;
+margin: 2%;
+}
+
+@media (max-width: 900px) {
+    .flex-container {
+        display: flex;
+        flex-flow: column;
+        height: auto;
+
+    }
+
+    .flex-container-reverse {
+        display: flex;
+        flex-flow: column-reverse;
+        height: auto;
+    }
+}

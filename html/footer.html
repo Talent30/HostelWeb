@@ -1,0 +1,121 @@
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+    float: left;
+    width: 30%;
+    height:120px;
+	padding: 20px;
+	background-color: #555;
+	text-align: center;
+}
+
+.column2 {
+    float: left;
+    width: 35%;
+    height:120px;
+	padding: 20px;
+	background-color: #555;
+	text-align: center;
+}
+
+.column3 {
+    float: left;
+    width: 35%;
+	height:120px;
+    padding: 20px;
+	background-color: #555;
+	text-align: left;
+}
+
+/* Clear floats after the columns */
+.footer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer {
+	font-family: Roboto, sans-serif;
+	font-size: 15px;
+	position: relative;
+	right: 0;
+	bottom: 0;
+	left: 0;	
+	height:120px;
+	
+	background-color: #555;
+	color: #ddd
+}
+
+.fa {
+  font-size: 22px;
+  width: 22px;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .column1 {
+        width: 100%;
+		text-align: center;
+
+    }
+	.column2 {
+        width: 100%;
+		text-align: center;
+
+    }
+	.column3 {
+        width: 100%;
+		text-align: center;
+    }
+}
+</style>
+
+<div class="footer">
+  <div class="column1">
+	<a href="../index.html" class="logo"><img src="../image/nelsonlogo.png" alt="logo" width="100%" height="100%"></a>
+	<br/><br/><p>Hours: 7am-11pm, Mon-Sun</p>
+  </div>
+  <div class="column2">
+	  <p>www.NelsonHostel.tk</p>
+	  	<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+		<a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+		<a href="https://www.google.com/" class="fa fa-google"></a>
+		<a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+	  <p>Copyright Nelson Hostel 2018</p>
+  </div>
+  <div class="column3">
+  		<p>Phone: +64 21 456 7890</p>
+		<p>Email: info@nelsonhostel.tk</p><br/>
+		<p>Address: 25 Muritai St, Tahunanui, Nelson 7011, NZ</p>
+  </div>
+</div>

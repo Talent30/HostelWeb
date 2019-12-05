@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/hero.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/map.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/roomtype.css">
+    <link rel="stylesheet" type="text/css" href="../css/gallery.css">
+    <script type="text/javascript" src="../js/hostel.js"></script>
+    <!-- css for the arrows on the nav -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <title>Nelson Hostel - Accommodation</title>
+</head>
+<body>
+<!-- start: navigation bar -->
+<nav class="navbar">
+				<span class="navbar-toggle" id="js-navbar-toggle">
+					<em class="fa fa-bars"></em>
+				</span>
+    <a href="../index.html" class="logo"><img src="../image/nelsonlogo.png" alt="logo" width="100%" height="100%"></a>
+    <ul class="main-nav" id="js-menu">
+        <li><a href="../index.html" class="nav-links">Home</a></li>
+        <div class="dropdown">
+            <button class="dropbtn">About Us</button>
+            <div class="dropdown-content">
+                <a href="ourStory.html">Our story</a>
+                <a href="testimonials.html">Testimonials</a>
+                <a href="ourPolicy.html">Our Policy</a>
+            </div>
+        </div>
+        <li><a href="accommodation.html" class="nav-links">Accommodation</a></li>
+        <li><a href="service.html" class="nav-links">Services</a></li>
+        <li><a href="activities.html" class="nav-links">Activities</a></li>
+        <li><a href="events.html" class="nav-links">Events</a></li>
+        <li><a href="enquiry.html" class="nav-links">Enquiry</a></li>
+        <li>
+            <a href="https://www.thebookingbutton.com.au/properties/autolodgedirect?check_in_date=11-10-2018&check_out_date=12-10-2018&number_adults=2"
+               class="nav-links">Book Online</a></li>
+    </ul>
+</nav>
+<!-- end: navigation bar -->
+<div class="hero-image" style="background-image: url(../image/hostel_landscape_1.jpg);">
+    <div class="hero-text">
+        <h1>Accommodation</h1>
+    </div>
+</div>
+
+
+<!-- room type introduce--->
+<div class="flex-container">
+
+
+    <div class="flex1">
+        <img class="responsive" src="../image/Cleveland_Hostel_room.jpg">
+
+    </div>
+    <div class="flex2"><h2 style="margin-top: 2%">Executive Double beds Studio</h2><br/>
+        <p>Executive Double room is fully renovated and refurbished with a modern design. This
+            open plan studio provides one of Nelson's best hostal accommodation for any single, couple or corporate
+            traveller. This room type is our best-selling suite.</p>
+    </div>
+    <div class="flex3">
+        <p>From</p>
+        <p style="font-size: 40px">149.99</p>
+        <p>Per night</p>
+        <p>
+            <button type="button"
+                    onclick="location.href='https://www.thebookingbutton.com.au/properties/autolodgedirect?check_in_date=11-10-2018&check_out_date=12-10-2018&number_adults=2';"/>
+            Book Now
+        </p>
+
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn">Gallery</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="flex-gallery">
+                    <div class="flex2">
+                        <div class="modal-header">
+                            <h2>Executive Queen Studio</h2>
+                        </div>
+                        <div class="container">
+
+                            <img id="expandedImg" style="width:100%">
+                            <div id="imgtext"></div>
+                        </div>
+                        <!-- The four columns -->
+                        <div class="row">
+                            <div class="column">
+                                <img id=show src="../image/rooms/hostel_room_5.jpg" style="width:100%"
+                                     onclick="myFunction(this);">
+                            </div>
+                            <div class="column">
+                                <img src="../image/rooms/hostel_room_6.jpg" style="width:100%"
+                                     onclick="myFunction(this);">
+                            </div>
+                            <div class="column">
+                                <img src="../image/rooms/hostel_room_4.jpg" style="width:100%"
+                                     onclick="myFunction(this);">
+                            </div>
+                            <div class="column">
+                                <img src="../image/rooms/hostel_room_3.jpg" style="width:100%"
+                                     onclick="myFunction(this);">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex1">
+                        <h3 style="text-align: center">Description</h3>
+                        <p>Executive One Studio is fully renovated and refurbished with a modern design. This open
+                            plan studio provides one of Nelson's best hostal accommodation for any couple, corporate
+                            traveller or tourist who want to relax in one of our massive spa baths. Newly completed in
+                            early 2016.</p>
+
+
+                        <h3 style="margin-top: 3%; text-align: center ">Amenities</h3>
+                        <table>
+                            <tr>
+                                <td>-Smoke Free</td>
+                                <td>- Linen and towels provided</td>
+                            </tr>
+                            <tr>
+                                <td>-Television</td>
+                                <td>-Daily Room Service</td>
+                            <tr>
+                                <td>-Cable/Satellite TV</td>
+                                <td>-Heating</td>
+                            </tr>
+                            <tr>
+                                <td>-Linen Provided</td>
+                                <td>-Wireless Internet</td>
+                            </tr>
+                            <tr>
+                                <td>-Lois</td>
+                                <td>-Griffin</td>
+                            </tr>
+                        </table>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</div>
+<div class="flex-container">
+
+
+    <div class="flex1">
+        <img class="responsive" src="../image/rooms/hostel_room_5.jpg">
+
+    </div>
+    <div class="flex2"><h2 style="margin-top: 2%">Executive One bed Studio</h2><br/>
+        <p>Executive One Studio is fully renovated and refurbished with a modern design. This
+            open plan studio provides one of Nelson's best hostel accommodation for any single, couple or corporate
+            traveller. This room type is our best-selling suite.</p>
+    </div>
+    <div class="flex3">
+        <p>From</p>
+        <p style="font-size: 40px">99.99</p>
+        <p>Per night</p>
+        <p>
+            <button type="button"
+                    onclick="location.href='https://www.thebookingbutton.com.au/properties/autolodgedirect?check_in_date=11-10-2018&check_out_date=12-10-2018&number_adults=2';"/>
+            Book Now
+        </p>
+
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn1">Gallery</button>
+
+        <!-- The Modal -->
+        <div id="myModal1" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close1">&times;</span>
+                <div class="flex-gallery">
+                    <div class="flex2">
+                        <div class="modal-header">
+                            <h2>Executive Queen Studio</h2>
+                        </div>
+                        <div class="container">
+
+                            <img id="expandedImg1" style="width:100%">
+                            <div id="imgtext1"></div>
+                        </div>
+                        <!-- The four columns -->
+                        <div class="row">
+                            <div class="column">
+                                <img src="../image/rooms/hostel_room_5.jpg" style="width:100%"
+                                     onclick="myFunction1(this);">
+                            </div>
+                            <div class="column">
+                                <img src="../image/rooms/hostel_room_6.jpg" style="width:100%"
+                                     onclick="myFunction1(this);">
+                            </div>
+                            <div class="column">
+                                <img src="../image/rooms/hostel_room_4.jpg" style="width:100%"
+                                     onclick="myFunction1(this);">
+                            </div>
+                            <div class="column">
+                                <img src="../image/rooms/hostel_room_3.jpg" style="width:100%"
+                                     onclick="myFunction1(this);">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex1">
+                        <h3 style="text-align: center">Description</h3>
+                        <p>Executive One Studio Spa is fully renovated and refurbished with a modern design. This open
+                            plan studio provides one of Hamilton's best motel accommodation for any couple, corporate
+                            traveller or tourist who want to relax in one of our massive spa baths. Newly completed in
+                            early 2016.</p>
+
+
+                        <h3 style="margin-top: 3%; text-align: center ">Amenities</h3>
+                        <table>
+                            <tr>
+                                <td>-Smoke Free</td>
+                                <td>- Linen and towels provided</td>
+                            </tr>
+                            <tr>
+                                <td>-Television</td>
+                                <td>-Daily Room Service</td>
+                            <tr>
+                                <td>-Cable/Satellite TV</td>
+                                <td>-Heating</td>
+                            </tr>
+                            <tr>
+                                <td>-Linen Provided</td>
+                                <td>-Wireless Internet</td>
+                            </tr>
+                            <tr>
+                                <td>-Lois</td>
+                                <td>-Griffin</td>
+                            </tr>
+                        </table>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</div>
+
+
+<script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the button that opens the modal
+    var btn = document.getElementById('myBtn');
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName('close')[0];
+
+    // When the user clicks the button, open the modal and the picture
+    btn.onclick = function () {
+        modal.style.display = 'block';
+        show.click();
+
+    };
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = 'none';
+    };
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    };
+
+    function myFunction(imgs) {
+        var expandImg = document.getElementById('expandedImg');
+        var imgText = document.getElementById('imgtext');
+        expandImg.src = imgs.src;
+        imgText.innerHTML = imgs.alt;
+        expandImg.parentElement.style.display = 'block';
+    }
+
+    /////////////////
+    // Get the modal
+    var modal1 = document.getElementById('myModal1');
+
+    // Get the button that opens the modal
+    var btn1 = document.getElementById('myBtn1');
+
+    var span1 = document.getElementsByClassName('close1')[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span1.onclick = function () {
+        modal.style.display = 'none';
+    };
+
+    // When the user clicks the button, open the modal and the picture
+    btn1.onclick = function () {
+        modal.style.display = 'block';
+        show.click();
+
+    };
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    };
+
+    function myFunction1(imgs) {
+        var expandImg = document.getElementById('expandedImg1');
+        var imgText = document.getElementById('imgtext1');
+        expandImg.src = imgs.src;
+        imgText.innerHTML = imgs.alt;
+        expandImg.parentElement.style.display = 'block';
+    }
+
+
+</script>
+<div w3-include-html="footer.html"></div>
+<script>
+    popupmenu();
+    w3.includeHTML();
+</script>
+</body>
+</html>

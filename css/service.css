@@ -1,0 +1,65 @@
+.flex-service {
+    margin: 1% 6%;
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    border-radius: 5px;
+    align-content: stretch;
+    height: auto;
+}
+
+.flex1 {
+    margin: 1%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex2 {
+    margin: 1%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 900px) {
+    .flex-service {
+        display: flex;
+        flex-flow: column;
+        height: auto;
+
+
+    }
+}

@@ -1,0 +1,35 @@
+
+.flex-container {
+    margin: 1% 6%;
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    align-content: center;
+    height: auto;
+}
+
+.flex1 {
+    margin: 1%;
+    flex: 1;
+}
+
+.flex2 {
+    margin: 1%;
+    flex: 1;
+}
+
+.flex3 {
+    margin: 1%;
+    flex: 1;
+}
+
+img {
+    max-width: 100%;
+}
+@media (max-width: 900px) {
+    .flex-container {
+        flex-flow: column;
+    }
+
+
+}
